@@ -1,0 +1,163 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Atif Digital Studio for professional digital services.">
+    <title>Contact Us | Atif Digital Studio</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+
+<header class="site-header">
+    <div class="container">
+        <nav class="navbar">
+            <a href="index.html" class="logo">Atif<span>Digital</span></a>
+
+            <button class="menu-toggle" id="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<main>
+
+<section class="hero">
+    <div class="container">
+        <div class="hero-content">
+            <span class="eyebrow">LET'S CONNECT</span>
+            <h1>Let's Build Something <span>Amazing Together.</span></h1>
+            <p>
+                Tell us about your idea. We would love to learn about
+                your project and explore how we can help.
+            </p>
+        </div>
+    </div>
+</section>
+
+<section class="section-padding contact-section">
+    <div class="container">
+
+        <div class="section-heading">
+            <span class="eyebrow">GET IN TOUCH</span>
+            <h2>Start Your Project</h2>
+            <p>Share a few details and send your project inquiry.</p>
+        </div>
+
+        <div class="contact-layout">
+
+            <div class="contact-info">
+
+                <div class="contact-info-card">
+                    <div class="service-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h3>Email Us</h3>
+                    <p>ourswebsolutions@gmail.com</p>
+                    <a href="mailto:ourswebsolutions@gmail.com">Send Email</a>
+                </div>
+
+                <div class="contact-info-card">
+                    <div class="service-icon">
+                        <i class="fab fa-whatsapp"></i>
+                    </div>
+                    <h3>WhatsApp</h3>
+                    <p>Discuss your project directly.</p>
+                    <a href="https://wa.me/923291105447" target="_blank" rel="noopener noreferrer">Open WhatsApp</a>
+                </div>
+
+                <div class="contact-info-card">
+                    <div class="service-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3>Project Inquiries</h3>
+                    <p>Send your requirements whenever convenient.</p>
+                </div>
+
+            </div>
+
+            <div class="contact-form-box">
+
+                <h2>Send a Message</h2>
+                <p>Fill in the details below.</p>
+
+                <form id="contact-form">
+
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" placeholder="Enter your name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" placeholder="Enter your email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="service">Select Service</label>
+                        <select id="service" required>
+                            <option value="">Choose a service</option>
+                            <option>Web Development</option>
+                            <option>Mobile App Development</option>
+                            <option>AI Automation</option>
+                            <option>E-Commerce Solutions</option>
+                            <option>Digital Marketing</option>
+                            <option>Business Systems</option>
+                            <option>Other</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Project Details</label>
+                        <textarea id="message" rows="6" placeholder="Tell us about your project..." required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary contact-submit">
+                        Send Inquiry <i class="fas fa-arrow-right"></i>
+                    </button>
+
+                    <p id="form-status" class="form-status" aria-live="polite"></p>
+
+                </form>
+
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section class="cta-section section-padding">
+    <div class="container">
+        <h2>Have a Great Idea?</h2>
+        <p>Let's turn your idea into a digital experience.</p>
+        <a href="https://wa.me/923291105447" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+            Contact on WhatsApp
+        </a>
+    </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+    <div class="container">
+        <p>© <span id="current-year"></span> Atif Digital Studio. All rights reserved.</p>
+        <p>Founder &amp; Owner: Atif Khan</p>
+    </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
